@@ -1,0 +1,30 @@
+@import url('https://fonts.googleapis.com/css?family=Carter+One&display=swap');
+@import url('https://fonts.googleapis.com/css?family=Merienda+One&display=swap');
+
+
+ h3{
+     text-align: center;
+     font-family: 'Merienda One', cursive;
+     color: gold;
+ }
+
+ #index{
+    background: linear-gradient(rgba(0,0,0,0.5), rgba(0,0,0,0.5)),url(../photos/imag3.jpeg)center/cover no-repeat ;
+    min-height: 100vh;
+ }
+
+ div .head{
+     
+  position: absolute;
+  margin: auto;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  left: 0;
+  width: 50px;
+  height: 100px;
+  border-radius: 3px;
+  font-family: 'Carter One', cursive;
+ }
+
+ 
