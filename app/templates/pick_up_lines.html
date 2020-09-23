@@ -10,12 +10,12 @@
 
         <div class="container ">
                 <h3 class="text-center text-light">Pick Up Lines</h3>
-                <a class="btn-primary"  href="{{url_for('main.new_pitch')}}">
+                <a class="btn btn-primary"  href="{{url_for('main.new_pitch')}}">
                     <br>
                     Add a new Pitch
                 </a>
         
-                <hr class="bg-light">
+                <hr class="bg-success">
                 
                     {{macro.displayPitchesInCategories(pitches,2)}}
                 <hr>

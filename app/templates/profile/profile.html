@@ -7,7 +7,7 @@
  
 
 {% block content %}
-<section class="bg-seondary">
+<section class="bg-info">
   <div class="container">
     <div class="row">
       <!-- displaying  Username-->
@@ -19,16 +19,18 @@
           </div>
           <div class="card-title">
             {% if user.profile_pic_path %}
-            <img src="{{url_for('static',filename=user.profile_pic_path)}}"c class="rounded-circle card-image-top img-fluid" alt="" class="img-thumbnail">
+            <img src="{{url_for('static',filename=user.profile_pic_path)}}"c class=" style='border-radius: 20px;' card-image-top img-fluid" alt="" class="img-thumbnail">
             {%else%}
             <p>No profile picture</p>
             {% endif %}
 
             {% if user == current_user %}
+            
 
             <form action="{{url_for('main.update_pic',uname=user.username)}}" method="post"
               enctype="multipart/form-data">
-              <input type="file" name="photo" class="form-control" required>
+              <input type="file" name="photo" class="form-control" required><br>
+
               <input class="btn btn-info" type="submit">
             </form>
             {% endif %}

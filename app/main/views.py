@@ -1,13 +1,10 @@
 from flask import render_template,redirect,url_for, abort,request
 from . import main
-
 from .forms import CommentsForm ,UpdateProfile, PitchForm, UpvoteForm, DownvoteForm
 from ..models import User,Pitch, Comment,PitchCategory,Downvote,Upvote
 from flask_login import login_required, current_user
 from .. import db, photos
-import markdown2
-
-   
+import markdown2   
 
 # Views
 @main.route('/')
