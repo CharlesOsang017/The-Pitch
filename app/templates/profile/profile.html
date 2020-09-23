@@ -18,7 +18,7 @@
           </div>
           <div class="card-title">
             {% if user.profile_pic_path %}
-            <img src="{{url_for('static',filename=user.profile_pic_path)}}"c class="card-image-top img-fluid" alt="" class="img-thumbnail">
+            <img src="{{url_for('static',filename=user.profile_pic_path)}}"c class="rounded-circle card-image-top img-fluid" alt="" class="img-thumbnail">
             {%else%}
             <p>No profile picture</p>
             {% endif %}
@@ -43,7 +43,7 @@
             {% endif %}
             <hr>
             {% if user == current_user %}
-            <a class="btn-primary" href="{{url_for('main.update_profile',uname=user.username)}}">Edit profile</a>
+            <a class="btn btn-primary" href="{{url_for('main.update_profile',uname=user.username)}}">Edit profile</a>
             {% endif %}
 
           </div>
