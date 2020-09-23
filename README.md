@@ -1,4 +1,4 @@
-:satisfied:
+<!-- :satisfied:
 # PITCH
 #### This project help people to post their pitches based on categories, Monday October 22nd 2019 
 #### By **OPIYO TITUS**&trade;
@@ -50,4 +50,4 @@ contact me @ titusouko@gmail.com
 ### License
 The project is under[MIT license](/blob/master/LICENSE)
 Copyright &copy; 2019.All rigths reserved
-  
+   -->
