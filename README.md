@@ -15,9 +15,8 @@ The Pitch is an app that allows users to create,submit, pitches based on categor
 | To add a pitch  | **Click an add pitch** | Redirected to the pitch collection form|
 
 ## Setup/Installation requirements
-1.Clone or download and unzip the repository from github....
-
-
+1.Clone or download and unzip the repository from github, 
+https://thepitches.herokuapp.com/
 
 3.cd into the project folder and open in text editor.
 4. install virtual environment then activate it
