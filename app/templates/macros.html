@@ -5,10 +5,10 @@
           <h3>{{pitch.pitch}}</h3>
           <p> Posted on:{{pitch.date}}</p>
           <br>
-          <a href="{{url_for('main.new_comment',id=pitch.id)}}">Add a Comment
-          <a href="{{url_for('main.upvote',pitch_id = pitch.id)}}"  class= "btn btn-success btn-sm">Upvote <span>{{pitch.upvotes.count()}}</span></a>
-          <a href="{{url_for('main.downvote',pitch_id = pitch.id)}}" class= "btn btn-info btn-sm">Downvote <span>{{pitch.downvotes.count()}}</span></a>&nbsp;&nbsp;|
-          <a href="{{url_for('main.view_comments',id=pitch.id)}}">View Comments</a>&nbsp;&nbsp;|
+          <a href="{{url_for('main.new_comment',id=pitch.id)}}" class="btn btn-info">Add a Comment</a>
+          <!-- <a href="{{url_for('main.upvote',pitch_id = pitch.id)}}"  class= "btn btn-success btn-sm">Upvote <span>{{pitch.upvotes.count()}}</span></a>
+          <a href="{{url_for('main.downvote',pitch_id = pitch.id)}}" class= "btn btn-info btn-sm">Downvote <span>{{pitch.downvotes.count()}}</span></a>&nbsp;&nbsp;| -->
+          <a href="{{url_for('main.view_comments',id=pitch.id)}}" class="btn btn-info">View Comments</a>&nbsp;&nbsp;
           <!-- <a href="{{url_for('main.new_comment',id=pitch.id)}}">Vote</a> -->
       </div> 
     {% endfor %}
