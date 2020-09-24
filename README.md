@@ -1,10 +1,8 @@
 
 # THE PITCH
-#### This project help people to post their pitches based on categories, Monday October 22nd 2019 
-#### By **OPIYO TITUS**&trade;
 
 ## Description
-This is an app that allows users to create,submit, pitches based on categories
+The Pitch is an app that allows users to create,submit, pitches based on categories and their satisfaction
 
 ## Project live site
   This is the live .[ Click for the demo](https://pitch0.herokuapp.com/)
