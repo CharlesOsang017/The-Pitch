@@ -1,5 +1,5 @@
-<!-- :satisfied:
-# PITCH
+
+# THE PITCH
 #### This project help people to post their pitches based on categories, Monday October 22nd 2019 
 #### By **OPIYO TITUS**&trade;
 
