@@ -3,9 +3,7 @@
 
 <!-- Content block -->
 {% block content %}
-<div class="container">
-
-  
+<div class="container">  
     <div class="row">
             <h3>Pitch ID:{{ found_pitch.id }}</h3>
 
@@ -16,8 +14,7 @@
     <div class="row">
             
                     <h1>Comments on this Pitch</h1>
-                    <hr>
-            
+                    <hr>            
                     {% if pitch_comments %}
                         {{ macro.displayComments(pitch_comments) }}
             
@@ -26,6 +23,5 @@
                     {% endif %}
 
                 </div>
-
 </div>
 {% endblock %}
