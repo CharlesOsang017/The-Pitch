@@ -37,5 +37,8 @@ The Pitch is an app that allows users to create,submit, pitches based on categor
 * CSS
 * POSTGRESS(SQLAlchemy)
 ## Support and contact details
-contact me @ titusouko@gmail.com
+* Name: Charles Osango
+* Phone: 0746170913
+* Email: charlesosango02@gmail.com
+
 ### License
