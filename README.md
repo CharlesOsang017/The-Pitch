@@ -33,7 +33,7 @@ The Pitch is an app that allows users to create,submit, pitches based on categor
 * BOOTSTRAP
 * CSS
 * POSTGRESS(SQLAlchemy)
-## Support and contact details
+## Contact Details
 * Name: Charles Osango
 * Phone: 0746170913
 * Email: charlesosango02@gmail.com
