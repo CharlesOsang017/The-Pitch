@@ -4,18 +4,11 @@
 ## Description
 The Pitch is an app that allows users to create,submit, pitches based on categories and their satisfaction
 
-## Project live site
-  This is the live .[ Click for the demo](https://pitch0.herokuapp.com/)
- ![Image](app/static/photos/Selection_031.png)
-## Features
-* landing page containing wecoming message
-* clickable categories for pitches
-* posting and even commenting on other pitches
-* user login/registration
-j
+## Project live link
+ 
 
 
-## Behavior Driven Development
+## Behavior Driven Development (BDD)
 | Behaviour | Input | Output |
 | :---------------- | :---------------: | ------------------: |
 | Display pitch categories | **On page load** | List of various categories of pitches |
@@ -42,10 +35,7 @@ j
 * FLASK FRAMEWORK
 * BOOTSTRAP
 * CSS
-* POSTGRESS
+* POSTGRESS(SQLAlchemy)
 ## Support and contact details
 contact me @ titusouko@gmail.com
 ### License
-The project is under[MIT license](/blob/master/LICENSE)
-Copyright &copy; 2019.All rigths reserved
-   -->
