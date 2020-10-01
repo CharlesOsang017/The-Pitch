@@ -38,3 +38,6 @@ https://thepitches.herokuapp.com/
 * Email: charlesosango02@gmail.com
 
 ### License
+[![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](license/MIT)
+
+Copyrite (c) 2020 Charles Osango
